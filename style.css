@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; 
+}
+
+
+.container-cards{
+    width: 75vw;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center;
+    margin-top: 1em;
+    background-color: #f9f9f9; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+.container-cards h2{
+    text-align: initial;
+    margin-left: 1em;
+    font-size: 21px; /* Tamanho da fonte do subtítulo */
+    color: #555; /* Cor do subtítulo */
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #000;
+    max-width: 20em;
+    vertical-align: top;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adicione sombreamento */
+}
+
+.card img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.card .titulo-card {
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 0;
+    margin-left: 1em;
+    font-size: 16px; /* Tamanho da fonte do título do card */
+    color: #333; /* Cor do texto */
+}
+
+.card p {
+    overflow-wrap: break-word;
+    margin-left: 1em;
+    font-size: 14px; /* Tamanho da fonte do texto do card */
+    color: #666; /* Cor do texto */
+}
+
+.banner {
+    position: relative;
+    height: 300px; /* Defina a altura desejada para o banner */
+}
+
+.elemento-fundo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/HamburguerCapa.jpg'); /* Mesma imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Efeito de desfoque no plano de fundo */
+}
+
+/* Estilo para o elemento de texto */
+.elemento-texto {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    color: white; /* Cor do texto */
+}
+
+.elemento-texto h1 {
+    font-size: 80px; /* Tamanho da fonte do título */
+
+}
+
+.elemento-texto p {
+    color: black;
+    font-size: 20px;
+}
